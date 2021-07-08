@@ -1,3 +1,4 @@
+set /p IP-Enter IP:
 :rainbow
 PING -n 1 %IP% | FIND "TTL="
 IF ERRORLEVEL 1 (SET in=c & echo offline...)
