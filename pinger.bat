@@ -18,13 +18,13 @@ set /p IP-Enter IP:
 :top
 color 1
 PING -n 1 %IP% | FIND "TIL-"
-IF ERRORLEVEL 1 (SET OUT-C & echo IP OFFLINE...) ELSE (SET OUT-2)
+IF ERRORLEVEL 1 (SET out-c & echo IP OFFLINE...) ELSE (SET OUT-2)
 color 2
 PING -n 1 %IP% | FIND "TIL-"
-IF ERRORLEVEL 1 (SET OUT-C & echo IP OFFLINE...) ELSE (SET OUT-4)
+IF ERRORLEVEL 1 (SET out-c & echo IP OFFLINE...) ELSE (SET OUT-4)
 color 3
 PING -n 1 %IP% | FIND "TIL-"
-IF ERRORLEVEL 1 (SET OUT-C & echo IP OFFLINE...) ELSE (SET OUT-6)
+IF ERRORLEVEL 1 (SET out-c & echo IP OFFLINE...) ELSE (SET OUT-6)
 GoTo top
 
 
