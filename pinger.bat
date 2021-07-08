@@ -1,32 +1,66 @@
-@echo off & cls
-color 5
-title coded by asmo#2021
-echo  ▄▄▄        ██████  ███▄ ▄███▓ ▒█████  
-echo ▒████▄    ▒██    ▒ ▓██▒▀█▀ ██▒▒██▒  ██▒
-echo ▒██  ▀█▄  ░ ▓██▄   ▓██    ▓██░▒██░  ██▒
-echo ░██▄▄▄▄██   ▒   ██▒▒██    ▒██ ▒██   ██░
-echo ▓█   ▓██▒▒██████▒▒▒██▒   ░██▒░ ████▓▒░
-echo ▒▒   ▓▒█░▒ ▒▓▒ ▒ ░░ ▒░   ░  ░░ ▒░▒░▒░ 
-echo ▒   ▒▒ ░░ ░▒  ░ ░░  ░      ░  ░ ▒ ▒░ 
-echo ░   ▒   ░  ░  ░  ░      ░   ░ ░ ░ ▒  
-echo    ░  ░      ░         ░       ░ ░  
-echo insta- ex
-echo dis- ex
+:rainbow
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
+ping -t 2 0 10 127.0.0.1 >nul
 
-
-set /p IP-Enter IP:
-:top
-color 1
-PING -n 1 %IP% | FIND "TIL-"
-IF ERRORLEVEL 1 (SET out-c & echo IP OFFLINE...) ELSE (SET OUT-2)
-color 2
-PING -n 1 %IP% | FIND "TIL-"
-IF ERRORLEVEL 1 (SET out-c & echo IP OFFLINE...) ELSE (SET OUT-4)
-color 3
-PING -n 1 %IP% | FIND "TIL-"
-IF ERRORLEVEL 1 (SET out-c & echo IP OFFLINE...) ELSE (SET OUT-6)
-GoTo top
-
-
-
-
+color a
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 02
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 03
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 04
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 05
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 06
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 07
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 08
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 09
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0a
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0b
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 0c
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 0d
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0e
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0f
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo offline...)
+ping -t 2 0 10 127.0.0.1 >nul
+goto rainbow
