@@ -6,7 +6,7 @@ cls
 color 5
 title AsmoMultiTool
 echo Login
-ehco.
+echo.
 echo ▄▄▄        ██████  ███▄ ▄███▓ ▒█████  
 echo ▒████▄    ▒██    ▒ ▓██▒▀█▀ ██▒▒██▒  ██▒
 echo ▒██  ▀█▄  ░ ▓██▄   ▓██    ▓██░▒██░  ██▒
